@@ -19,4 +19,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    #Buttons
+    <string name="allMoviesButton">All Movies</string>
+    <string name="highRatedButton">High Rated</string>
+    <string name="favoritesButton">Favorites</string>
+    <string name="latestButton">Latest</string>
+
 </resources>
