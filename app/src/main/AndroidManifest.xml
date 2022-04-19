@@ -13,13 +13,18 @@
         android:theme="@style/Theme.Foodie">
         <activity
             android:name="com.cna.mobileprogramming.movieBuff.ui.LandingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_landing"
+            android:theme="@style/Theme.Foodie.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cna.mobileprogramming.movieBuff.ui.MainActivity"
             android:exported="true">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
