@@ -16,5 +16,23 @@ class LandingActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+
+        val highRatedClick = findViewById<Button>(R.id.highRatedButton)
+        highRatedClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        val favoritesClick = findViewById<Button>(R.id.favoritesButton)
+        favoritesClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        val latestClick = findViewById<Button>(R.id.latestButton)
+        latestClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
